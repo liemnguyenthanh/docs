@@ -1,48 +1,55 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "strtm.xyz",
+  "name": "Stratum",
+  "description": "DeFi hub for building your own social capital",
   "colors": {
     "primary": "#F5661D",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "For Vault Manager",
-            "pages": [
-              "user-guide/create-new-vault",
-            "user-guide/manager"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+  "navigation": [
+    {
+      "group": "About Stratum",
+      "pages": [
+        "about/overview",
+        "about/key-features",
+        "about/official-links"
+      ]
+    },
+    {
+      "group": "USER GUIDE",
+      "pages": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "group": "For Vault Manager",
+          "pages": [
+            "user-guide/create-new-vault",
+            "user-guide/manage-vault-trade",
+            "user-guide/start-new-epoch"
+          ]
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "group": "For Vault Investor",
+          "pages": [
+            "user-guide/how-to-deposit",
+            "user-guide/how-to-withdraw"
+          ]
         }
       ]
+    },
+    {
+      "group": "Basics",
+      "pages": [
+        "basics/vault-strategies",
+        "basics/fees",
+        "basics/points",
+        "basics/supported-platforms",
+        "basics/roadmap",
+        "basics/technical-overview"
+      ]
     }
-  },
+  ],
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/light.svg"
@@ -50,8 +57,12 @@
   "navbar": {
     "links": [
       {
+        "label": "Testnet",
+        "href": "https://monad.strtm.xyz/"
+      },
+      {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.com/invite/HcadMauCDx"
       }
     ],
     "primary": {
@@ -75,7 +86,8 @@
   "footer": {
     "socials": {
       "x": "https://x.com/strtm_xyz",
-      "github": "https://github.com/strtmxyz"
+      "github": "https://github.com/strtmxyz",
+      "discord": "https://discord.com/invite/HcadMauCDx"
     }
   }
 }
