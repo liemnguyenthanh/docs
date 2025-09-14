@@ -16,7 +16,8 @@
           {
             "group": "For Vault Manager",
             "pages": [
-              "user-guide/create-new-vault"
+              "user-guide/create-new-vault",
+            "user-guide/manager"
             ]
           }
         ]
