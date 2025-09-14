@@ -9,42 +9,44 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": [
-    {
-      "group": "About Stratum",
-      "pages": [
-        "about/overview",
-        "about/key-features",
-        "about/official-links"
-      ]
-    },
-    {
-      "group": "For Vault Manager",
-      "pages": [
-        "user-guide/create-new-vault",
-        "user-guide/manage-vault-trade",
-        "user-guide/start-new-epoch"
-      ]
-    },
-    {
-      "group": "For Vault Investor",
-      "pages": [
-        "user-guide/how-to-deposit",
-        "user-guide/how-to-withdraw"
-      ]
-    },
-    {
-      "group": "Basics",
-      "pages": [
-        "basics/vault-strategies",
-        "basics/fees",
-        "basics/points",
-        "basics/supported-platforms",
-        "basics/roadmap",
-        "basics/technical-overview"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "About Stratum",
+        "pages": [
+          "about/overview",
+          "about/key-features",
+          "about/official-links"
+        ]
+      },
+      {
+        "group": "For Vault Manager",
+        "pages": [
+          "user-guide/create-new-vault",
+          "user-guide/manage-vault-trade",
+          "user-guide/start-new-epoch"
+        ]
+      },
+      {
+        "group": "For Vault Investor",
+        "pages": [
+          "user-guide/how-to-deposit",
+          "user-guide/how-to-withdraw"
+        ]
+      },
+      {
+        "group": "Basics",
+        "pages": [
+          "basics/vault-strategies",
+          "basics/fees",
+          "basics/points",
+          "basics/supported-platforms",
+          "basics/roadmap",
+          "basics/technical-overview"
+        ]
+      }
+    ]
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/light.svg"
