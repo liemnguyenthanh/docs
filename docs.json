@@ -19,23 +19,18 @@
       ]
     },
     {
-      "group": "USER GUIDE",
+      "group": "For Vault Manager",
       "pages": [
-        {
-          "group": "For Vault Manager",
-          "pages": [
-            "user-guide/create-new-vault",
-            "user-guide/manage-vault-trade",
-            "user-guide/start-new-epoch"
-          ]
-        },
-        {
-          "group": "For Vault Investor",
-          "pages": [
-            "user-guide/how-to-deposit",
-            "user-guide/how-to-withdraw"
-          ]
-        }
+        "user-guide/create-new-vault",
+        "user-guide/manage-vault-trade",
+        "user-guide/start-new-epoch"
+      ]
+    },
+    {
+      "group": "For Vault Investor",
+      "pages": [
+        "user-guide/how-to-deposit",
+        "user-guide/how-to-withdraw"
       ]
     },
     {
